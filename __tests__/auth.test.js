@@ -16,7 +16,6 @@ describe('Auth Routes', () => {
     expect([401, 302]).toContain(res.statusCode);
 
     if (res.statusCode === 302) {
-      // ✅ Fix: now checks if redirected to /login instead of /verify
       expect(res.headers.location).toMatch(/login/i);
     }
   });
