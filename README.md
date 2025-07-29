@@ -86,7 +86,7 @@ budget-app/
 
    ```
 
-2. **Set up your `.env` file** with:
+2. **Set up your db & `.env` file** with:
    ```
    DB_HOST=localhost
    DB_USER=root
@@ -119,7 +119,7 @@ npx jest
 
 ## 📹 Demo Video
 
-🔗 https://drive.google.com/file/d/1tWw7M6kAvtriTGX2DyiPpR5SjiHqCGID/view?usp=sharing
+🔗https://drive.google.com/file/d/1vzadGhY6CkTMEU-mmxmecHENS1W3YYVq/view?usp=sharing
 
 ---
 
