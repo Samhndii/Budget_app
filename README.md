@@ -10,7 +10,7 @@ A Node.js-based budget tracking application that allows users to set monthly bud
 - 💰 Add, edit, and delete expenses by category and date
 - 📊 View total and filtered summaries of expenses
 - 🗓️ Set monthly budgets and view usage status
-- 📤 Email notifications for confirmations (optional)
+- 📤 Email notifications for confirmations 
 - 📂 All data stored in a MySQL database
 
 ---
@@ -89,11 +89,16 @@ budget-app/
 
 2. **Set up your db & `.env` file** with:
    ```
+   Create the database or import it using the file budget_db.sql (attached)
+
    DB_HOST=localhost
    DB_USER=root
    DB_PASSWORD=yourDbPassword
    DB_NAME=budget_db
    
+   Create account in mailttrap and login then create an inbox and update here the values of mail_user and mail_pass
+   in order to be able to register well
+
    MAIL_HOST=sandbox.smtp.mailtrap.io
    MAIL_PORT=587
    MAIL_USER=MailtrapUsername
@@ -104,6 +109,8 @@ budget-app/
 3. **Start the app**
    ```bash
    npm start
+   or
+   node server.js
    ```
 
 4. Visit `http://localhost:3000` in your browser.
