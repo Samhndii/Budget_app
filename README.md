@@ -76,13 +76,14 @@ budget-app/
 1. **Install dependencies**
    ```bash
    npm install
-   be sure that you installed all the needed modules:
    npm install express mysql2 ejs body-parser
    npm install nodemailer express-session
    npm install dotenv nodemailer express-session uuid
    npm install bcrypt
    npm install connect-flash
    npm install --save-dev jest supertest # for Automated testing
+
+   node server.js #to run the localhost 3000
 
    ```
 
